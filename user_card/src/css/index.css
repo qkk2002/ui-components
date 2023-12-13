@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	background: #E6EFFA;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.user__card {
+	display: flex;
+	background-color: #ffffff;
+	border-radius: 25px;
+	display: inline-flex;
+	padding: 50px;
+}
+
+.user__card--avatar img {
+	width: 103px;
+	height: 103px;
+	border-radius: 50%;
+	border: 11px solid #E6EFFA;
+}
+
+.user__card--info {
+	margin-left: 16px;
+	padding-top: 24px;
+	color: #1C2B62;
+	font-weight: 500;
+}
+
+.user__card--infoName {
+		font-family: 'Merriweather', serif;
+		font-size: 26px;
+		font-weight: 700;	
+}
+
+.user__card--infoJob {
+	margin-top: 8px;
+	font-style: 16px;
+}
+
+.user__card--infoRating {
+	margin-top: 28px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 16px;
+}
+
+.user__card--infoRatingItem {
+	display: flex;
+	align-items: center;
+}
+
+.user__card--infoRatingItemDetails {
+	margin-left: 4px;
+}
+
+.user__card--infoDetails {
+	margin-top: 28px;
+	font-size: 18px;
+}
+
+.user__card--infoShow {
+	margin-top: 28px;
+	border-radius: 4px;
+	border: 2px solid #C4CADF;
+	background-color: #ffffff;
+	padding: 10px;
+	cursor: pointer;
