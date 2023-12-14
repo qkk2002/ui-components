@@ -48,4 +48,34 @@ li {
 
 .collections__list {
   margin-top: 56px;
+  display: flex;
+  gap: 64px;
+}
+
+.collections__list--item {
+  padding: 24px;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+}
+
+.collections__list--itemImgsList {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.collections__list--itemDetails {
+  margin-top: 24px;
+  display: flex;
+}
+
+.collections__list--itemDetailsTitle {
+  font-size: 24px;
+}
+
+.collections__list--itemDetailsMore {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 4px;
 }
